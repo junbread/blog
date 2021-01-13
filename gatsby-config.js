@@ -35,6 +35,7 @@ module.exports = {
             url: `https://www.github.com/junbread`,
           },
         ],
+        postsPrefix: `/blog`,
         formatString: `YYYY.MM.DD`
       },
     },

@@ -6,33 +6,36 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteHeadline: `junbread`,
+    siteDescription: `junbread 개발 블로그`,
+    siteTitle: `junbread`,
+    siteTitleAlt: `junbread`,
+    author: `junbread`,
+    siteImage: `/banner.jpg`,
+    siteLanguage: `KR`,
+    siteUrl: `https://junbread.win`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
-      // See the theme's README for all available options
       options: {
         navigation: [
           {
-            title: `Blog`,
+            title: `블로그`,
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `소개`,
             slug: `/about`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `GitHub`,
+            url: `https://www.github.com/junbread`,
           },
         ],
+        formatString: `YYYY.MM.DD`
       },
     },
     {
@@ -75,6 +78,6 @@ module.exports = {
         reportFilename: `_bundle.html`,
         openAnalyzer: false,
       },
-    },
+    }
   ].filter(Boolean),
 }

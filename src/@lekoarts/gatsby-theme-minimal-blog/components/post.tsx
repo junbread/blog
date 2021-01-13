@@ -1,13 +1,13 @@
 /** @jsx jsx */
-import { jsx, Heading } from "theme-ui"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import React from "react"
+import { jsx, Heading } from 'theme-ui'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
+import React from 'react'
 
-import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout"
-import ItemTags from "@lekoarts/gatsby-theme-minimal-blog/src/components/item-tags"
-import SEO from "@lekoarts/gatsby-theme-minimal-blog/src/components/seo"
+import Layout from '@lekoarts/gatsby-theme-minimal-blog/src/components/layout'
+import ItemTags from '@lekoarts/gatsby-theme-minimal-blog/src/components/item-tags'
+import SEO from '@lekoarts/gatsby-theme-minimal-blog/src/components/seo'
 
-import UtterancesComments from "../../../components/UtterancesComments"
+import UtterancesComments from '../../../components/UtterancesComments'
 
 type PostProps = {
   data: {
@@ -35,7 +35,7 @@ type PostProps = {
   }
 }
 
-const px = [`32px`, `16px`, `8px`, `4px`]
+const px = ['32px', '16px', '8px', '4px']
 const shadow = px.map((v) => `rgba(0, 0, 0, 0.15) 0px ${v} ${v} 0px`)
 
 const Post = ({ data: { post } }: PostProps) => (
@@ -50,22 +50,22 @@ const Post = ({ data: { post } }: PostProps) => (
     <Heading as="h1" variant="styles.h1">
       {post.title}
     </Heading>
-    <p sx={{ color: `secondary`, mt: 3, a: { color: `secondary` }, fontSize: [1, 1, 2] }}>
+    <p sx={{ color: 'secondary', mt: 3, a: { color: 'secondary' }, fontSize: [1, 1, 2] }}>
       <time>{post.date}</time>
       {post.tags && (
         <React.Fragment>
-          {` — `}
+          {' — '}
           <ItemTags tags={post.tags} />
         </React.Fragment>
       )}
-      {post.timeToRead && ` — `}
+      {post.timeToRead && ' — '}
       {post.timeToRead && <span>{post.timeToRead} min read</span>}
     </p>
     <section
       sx={{
         my: 5,
-        ".gatsby-resp-image-wrapper": { my: [4, 4, 5], boxShadow: shadow.join(`, `) },
-        variant: `layout.content`,
+        '.gatsby-resp-image-wrapper': { my: [4, 4, 5], boxShadow: shadow.join(', ') },
+        variant: 'layout.content'
       }}
     >
       <MDXRenderer>{post.body}</MDXRenderer>

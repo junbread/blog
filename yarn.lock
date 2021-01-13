@@ -1611,10 +1611,8 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@lekoarts/gatsby-theme-minimal-blog-core@^2.7.5":
+"@lekoarts/gatsby-theme-minimal-blog-core@file:./node_modules_custom/@lekoarts/gatsby-theme-minimal-blog-core":
   version "2.7.5"
-  resolved "https://registry.yarnpkg.com/@lekoarts/gatsby-theme-minimal-blog-core/-/gatsby-theme-minimal-blog-core-2.7.5.tgz#a7dcc2f94790e2f2717eee9dfe92f683bad6cf84"
-  integrity sha512-+tpCI3F7bjSN/KompTRCpE3TF6SUh6TtV1/2lVFIgaDSD12mgNFGPHWun0EKxkZudAEIhR19bDGpHoa6L0Xa/A==
   dependencies:
     "@mdx-js/mdx" "^1.6.22"
     "@mdx-js/react" "^1.6.22"
@@ -1631,7 +1629,7 @@
   resolved "https://registry.yarnpkg.com/@lekoarts/gatsby-theme-minimal-blog/-/gatsby-theme-minimal-blog-2.7.5.tgz#010d667a306f55d8ca9633ddbd62c871ea06bb87"
   integrity sha512-PZ3EjDOnfOXn+KXrrL/qZklSelnbW/wLBSxzTFDyTtihddquhDt23ONxXQQdx4UPJ20A9oyaZmHNZuDHmPyqXw==
   dependencies:
-    "@lekoarts/gatsby-theme-minimal-blog-core" "^2.7.5"
+    "@lekoarts/gatsby-theme-minimal-blog-core" "file:./node_modules_custom/@lekoarts/gatsby-theme-minimal-blog-core"
     "@loadable/component" "^5.14.1"
     "@theme-ui/color" "^0.3.4"
     "@theme-ui/components" "^0.3.4"

@@ -1,6 +1,7 @@
 import React from 'react'
 
-const UtterancesComments: React.FC = () => (
+export default function UtterancesComments () {
+  return (
   <section
     ref={elem => {
       if (!elem) {
@@ -17,6 +18,5 @@ const UtterancesComments: React.FC = () => (
       elem.appendChild(scriptElem)
     }}
   />
-)
-
-export default UtterancesComments
+  )
+}

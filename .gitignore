@@ -67,3 +67,7 @@ public
 .idea
 .vscode
 .DS_Store
+
+# custom
+
+content/pages/about/data.json

@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@v1
-     - name: Runs pre-build script
+     - name: Run pre-build script
        run: ./setup.sh
      - uses: enriikke/gatsby-gh-pages-action@v2
        with:

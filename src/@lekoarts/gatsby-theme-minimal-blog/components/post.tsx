@@ -47,23 +47,25 @@ const Post = ({ data: { post } }: PostProps) => (
       pathname={post.slug}
       canonicalUrl={post.canonicalUrl}
     />
-    <Heading as="h1" variant="styles.h1">
-      {post.title}
-    </Heading>
-    <p sx={{ color: 'secondary', mt: 3, a: { color: 'secondary' }, fontSize: [1, 1, 2] }}>
-      <time>{post.date}</time>
-      {post.tags && (
-        <React.Fragment>
-          {' — '}
-          <ItemTags tags={post.tags} />
-        </React.Fragment>
-      )}
-      {post.timeToRead && ' — '}
-      {post.timeToRead && <span>{post.timeToRead} min read</span>}
-    </p>
+    <div sx={{ textAlign: 'center' }}>
+      <Heading as="h2" variant="styles.h2">
+        {post.title}
+      </Heading>
+      <p sx={{ color: 'secondary', mt: 3, a: { color: 'secondary' }, fontSize: [1, 1, 2] }}>
+        <time>{post.date}</time>
+        {post.tags && (
+          <React.Fragment>
+            {' — '}
+            <ItemTags tags={post.tags} />
+          </React.Fragment>
+        )}
+        {post.timeToRead && ' — '}
+        {post.timeToRead && <span>{post.timeToRead} min read</span>}
+      </p>
+    </div>
     <section
       sx={{
-        my: 5,
+        my: 4,
         '.gatsby-resp-image-wrapper': { my: [4, 4, 5], boxShadow: shadow.join(', ') },
         variant: 'layout.content'
       }}

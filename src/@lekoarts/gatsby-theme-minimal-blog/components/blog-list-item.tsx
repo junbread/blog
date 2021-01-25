@@ -29,17 +29,21 @@ const BlogListItem = ({ post, showTags = true }: BlogListItemProps) => {
 
   return (
     <Box mb={4}>
-      <TLink as={Link} to={replaceSlashes(`/${postsPrefix}/${post.slug}`)} sx={{ fontSize: [1, 2, 3], color: 'text' }}>
-        {post.title}
-      </TLink>
-      <p sx={{ color: 'secondary', mt: 1, a: { color: 'secondary' }, fontSize: [1, 1, 2] }}>
+      <p sx={{ color: 'secondary', mb: 0, a: { color: 'secondary' }, fontSize: [1, 1, 1] }}>
         <time>{post.date}</time>
-        {post.tags && showTags && (
+      </p>
+      {post.tags && showTags && (
+        <div>
           <React.Fragment>
-            {' — '}
             <ItemTags tags={post.tags} />
           </React.Fragment>
-        )}
+        </div>
+      )}
+      <TLink as={Link} to={replaceSlashes(`/${postsPrefix}/${post.slug}`)} sx={{ fontSize: [1, 2, 3], color: 'text', fontWeight: 'bold' }}>
+        {post.title}
+      </TLink>
+      <p sx={{ fontSize: [1, 2, 2], mt: 1, color: '#666666cc' }}>
+        {post.description ? post.description : post.excerpt}
       </p>
     </Box>
   )

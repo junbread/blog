@@ -3,8 +3,9 @@
   line-height: 1.5;
   color: rgb(55, 53, 47);
   caret-color: rgb(55, 53, 47);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-    "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Spoqa Han Sans Neo', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 .notion > *,
@@ -136,8 +137,8 @@
   margin-top: 1em;
 }
 .notion-emoji {
-  font-family: "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji',
+    'Segoe UI Symbol';
 }
 .notion-page-cover {
   display: block;
@@ -272,7 +273,7 @@ img.notion-page-icon {
   background: rgba(135, 131, 120, 0.15);
   border-radius: 0.25rem;
   font-size: 85%;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier,
     monospace;
 }
 
@@ -343,7 +344,7 @@ img.notion-page-icon {
   box-sizing: border-box;
   overflow-x: scroll;
   background: rgb(247, 246, 243);
-  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
+  font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier,
     monospace;
 }
 

@@ -21,11 +21,11 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: '블로그',
-            slug: '/blog'
+            title: 'Blog',
+            slug: '/'
           },
           {
-            title: '소개',
+            title: 'About',
             slug: '/about'
           }
         ],
@@ -36,7 +36,7 @@ module.exports = {
           }
         ],
         postsPrefix: '/blog',
-        formatString: 'YYYY.MM.DD'
+        formatString: 'YYYY년 MM월 DD일'
       }
     },
     {
@@ -70,8 +70,6 @@ module.exports = {
         ]
       }
     },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
     shouldAnalyseBundle && {
       resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
       options: {

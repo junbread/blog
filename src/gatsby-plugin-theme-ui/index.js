@@ -25,7 +25,8 @@ const theme = merge(tailwind, {
     }
   },
   fonts: {
-    body: '"Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'
+    body: '"Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont, "Noto Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+    monospace: '"Roboto Mono", monospace'
   },
   fontSizes: [14, 16, 20, 24, 28, 32, 36],
   styles: {

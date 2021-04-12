@@ -29,8 +29,8 @@ public class Raw {
 
 ### `List`, `List<Object>`의 차이
 
-- List는 제네릭과 무관하다.
-- List<Object>는 모든 타입을 허용한다고 명시적으로 컴파일러에게 정보를 전달해주는 것이다.
+- `List`는 제네릭과 무관하다.
+- `List<Object>`는 모든 타입을 허용한다고 명시적으로 컴파일러에게 정보를 전달해주는 것이다.
 
 ### 원소의 타입을 모른 채 사용하고 싶다면?
 
@@ -276,7 +276,7 @@ public static <E> Set<E> union(Set<E> s1, Set<E> s2) {
 ### **제네릭 싱글톤 팩터리**
 
 - 제네릭은 런타임에 타입 정보가 소거되기 때문에 하나의 객체를 어떤 타입으로든 매개변수화할 수 있다.
-- 요청한 타입 매개변수에 맞도록 매번 그 객체의 타입을 변경해주는 정적 팩터리를 만들어야 한다. ex) Collections.emptySet()
+- 요청한 타입 매개변수에 맞도록 매번 그 객체의 타입을 변경해주는 정적 팩터리를 만들어야 한다. ex) `Collections.emptySet()`
 
 ### **재귀적 타입 한정**
 
@@ -302,7 +302,7 @@ public static <E extends Comparable<E>> E max(Collection<E> c) {
 ## 아이템 31: 한정적 와일드카드를 사용해 API 유연성을 높이라
 
 - 매개변수화 타입은 불공변(invariant)이다.
-    - List<Object>를 파라미터로 받는 메서드의 인자로 List<String>을 전달할 수 없다.
+    - `List<Object>`를 파라미터로 받는 메서드의 인자로 `List<String>`을 전달할 수 없다.
 - 제네릭을 좀 더 유연하게 사용할 수는 없을까?
 
     → 입력 파라미터에 와일드카드 타입을 사용하자.

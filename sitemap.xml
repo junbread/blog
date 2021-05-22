@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://junbread.win/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/effective-java-07</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/effective-java-06</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/effective-java-05</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/effective-java-04</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/effective-java-03</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/bash</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/chrome-extension-recommendation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/vs-code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/windows-utility-recommendation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/blog/wsl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/tags/editor</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/tags/java</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/tags/linux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/tags/study</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/tags/tips</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://junbread.win/tags/windows</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>

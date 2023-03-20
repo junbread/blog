@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tips on Junbread🥐</title><link>https://junbread.win/tags/tips/</link><description>Recent content in Tips on Junbread🥐</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://junbread.win/tags/tips/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash</title><link>https://junbread.win/posts/2021/bash/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><guid>https://junbread.win/posts/2021/bash/</guid><description>가장 널리 쓰이는 리눅스 셸. 많은 배포판에서 기본 셸로 지정되어 있다. fish와 zsh도 사용해 봤지만, 가볍고 범용적인 bash로 결국 돌아오게 된다.
+Cheetsheet 직접적으로 Bash와 관련 없지만 터미널 전반적인 명령어 사용법도 함께 수록한다.
+cd -: 직전 히스토리로 돌아가기 !!: 직전 사용 명령어. sudo !! 식으로 사용하면 깜빡하고 sudo를 붙이지 않은 명령어를 다시 입력할 필요가 없다. 사용 노하우 여러 환경에서 일관되게 .bashrc 관리하기 ~/.bashrc는 여러 가지 bash 설정을 기입해 놓은 파일이다. 다른 설정을 수정하지 않았을 경우 여기서 설정을 로드한다.</description></item><item><title>Chrome 확장기능 추천목록</title><link>https://junbread.win/posts/2021/chrome-extension-recommendation/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><guid>https://junbread.win/posts/2021/chrome-extension-recommendation/</guid><description>IPA furigana 웹페이지에 있는 한자 단어에 후리가나를 달아 주는 확장
+Vimium vim-like 키매핑으로 웹서핑을 가능하게 해 주는 확장
+f 키가 꿀 기능이다.
+Quick QR Code Generator 보고 있는 페이지 URL을 QR 코드로 만들어 주는 확장
+Windows-iOS 간 히스토리 공유가 안 되어서.. PC에서 보던거 폰으로 옮기고 싶을 때 가끔 사용
+최신 버전 크로미움의 경우 브라우저에서 자체적으로 이 기능을 지원해 주기 시작한 것 같다.
+이 링크에서 활성화 가능</description></item><item><title>VS Code</title><link>https://junbread.win/posts/2021/vs-code/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><guid>https://junbread.win/posts/2021/vs-code/</guid><description>마이크로소프트에서 개발한 강력한 텍스트 에디터. Electron 기반으로 만들어졌다.
+사용하고 있는 플러그인 Shell launcher VS Code에 임베드되어 있는 터미널 패널은 기본 셸 환경을 바꿀 수 있도록 되어 있지만, 상황별로 다른 셸을 사용하고자 할 때는 불편하다. Shell launcher 플러그인은 현재 설치되어 있는 셸을 자동으로 인식해 리스트에 표시해 준다. 간단하지만 편리하다.
+Render Line Endings Windows 머신에 WSL을 설치해 사용하고 있다. 한 가지 문제는 Windows와 Linux의 EOL 처리가 서로 달라서 충돌이 일어나는 경우가 있다는 것이다.</description></item><item><title>Windows 유틸리티 추천목록</title><link>https://junbread.win/posts/2021/windows-utility-recommendation/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><guid>https://junbread.win/posts/2021/windows-utility-recommendation/</guid><description>Windows 환경에서 유용하게 사용할 수 있는 유틸리티 모음
+LittleBigMouse 멀티 모니터 마우스 스케일링 유틸리티
+멀티 모니터 사용 시 DPI 차이에 따른 마우스 위치 어긋남 등을 조정해 주는 유틸리티
+DPI 스케일링뿐만 아니라 모니터 위치 정밀 조정 등 여러가지 편리한 기능이 들어가 있다
+mgth/LittleBigMouse
+Chocolatey Windows 커맨드라인 패키지 매니저
+brew, apt 등과 같은 기능을 제공한다. 웬만한 패키지는 다 있음
+비슷한 걸로 scoop, winget 등이 있는데, scoop은 유저스페이스에만 설치가 가능하고 winget은 아직 개발중이라 별로</description></item><item><title>WSL</title><link>https://junbread.win/posts/2021/wsl/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><guid>https://junbread.win/posts/2021/wsl/</guid><description>Windows Subsystem for Linux
+개요 Windows에서 리눅스를 구동할 수 있게 해 준다. WSL 1은 리눅스 시스템 콜을 Windows 시스템 콜로 번역하는 식으로 이루어졌지만 WSL 2부터는 Hyper-V를 이용해 구동된다.
+설치 WSL 1의 경우 Windows 10 Pro 에디션 이상이 필요하다. WSL 2부터는 Windows 10 Home 에디션에서도 이용할 수 있게 되었다.
+Microsoft Docs에 자세한 설치 과정이 안내되어 있다.
+팁과 주의사항 Hyper-V 사용시 퍼포먼스 하락 WSL 2는 Hyper-V를 사용하기 때문에 설치 전 Hyper-V 기능을 사용 설정해야 한다.</description></item></channel></rss>

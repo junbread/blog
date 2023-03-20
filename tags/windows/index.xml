@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Windows on Junbread🥐</title><link>https://junbread.win/tags/windows/</link><description>Recent content in Windows on Junbread🥐</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://junbread.win/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 유틸리티 추천목록</title><link>https://junbread.win/posts/2021/windows-utility-recommendation/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><guid>https://junbread.win/posts/2021/windows-utility-recommendation/</guid><description>Windows 환경에서 유용하게 사용할 수 있는 유틸리티 모음
+LittleBigMouse 멀티 모니터 마우스 스케일링 유틸리티
+멀티 모니터 사용 시 DPI 차이에 따른 마우스 위치 어긋남 등을 조정해 주는 유틸리티
+DPI 스케일링뿐만 아니라 모니터 위치 정밀 조정 등 여러가지 편리한 기능이 들어가 있다
+mgth/LittleBigMouse
+Chocolatey Windows 커맨드라인 패키지 매니저
+brew, apt 등과 같은 기능을 제공한다. 웬만한 패키지는 다 있음
+비슷한 걸로 scoop, winget 등이 있는데, scoop은 유저스페이스에만 설치가 가능하고 winget은 아직 개발중이라 별로</description></item><item><title>WSL</title><link>https://junbread.win/posts/2021/wsl/</link><pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate><guid>https://junbread.win/posts/2021/wsl/</guid><description>Windows Subsystem for Linux
+개요 Windows에서 리눅스를 구동할 수 있게 해 준다. WSL 1은 리눅스 시스템 콜을 Windows 시스템 콜로 번역하는 식으로 이루어졌지만 WSL 2부터는 Hyper-V를 이용해 구동된다.
+설치 WSL 1의 경우 Windows 10 Pro 에디션 이상이 필요하다. WSL 2부터는 Windows 10 Home 에디션에서도 이용할 수 있게 되었다.
+Microsoft Docs에 자세한 설치 과정이 안내되어 있다.
+팁과 주의사항 Hyper-V 사용시 퍼포먼스 하락 WSL 2는 Hyper-V를 사용하기 때문에 설치 전 Hyper-V 기능을 사용 설정해야 한다.</description></item></channel></rss>

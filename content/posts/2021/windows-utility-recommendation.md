@@ -1,7 +1,6 @@
 ---
 title: "Windows 유틸리티 추천목록"
 date: 2021-01-09
-slug: "/windows-utility-recommendation"
 tags: ["Tips", "Windows"]
 ---
 

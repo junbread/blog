@@ -1,7 +1,6 @@
 ---
 title: "이펙티브 자바 3장 정리"
 date: 2021-03-23
-slug: "/effective-java-03"
 tags: ["Study", "Java"]
 ---
 

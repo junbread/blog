@@ -1,7 +1,6 @@
 ---
 title: "이펙티브 자바 7장 정리"
 date: 2021-05-22
-slug: "/effective-java-07"
 tags: ["Study", "Java"]
 ---
 

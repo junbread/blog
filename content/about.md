@@ -1,7 +1,6 @@
 ---
 title: "About"
-slug: "about"
-noComment: "true"
+noComment: true
 ---
 
 <div style="display:flex;flex-direction:row;flex-wrap:wrap;width:100%">

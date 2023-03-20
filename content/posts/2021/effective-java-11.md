@@ -1,7 +1,6 @@
 ---
 title: "이펙티브 자바 11장 정리"
 date: 2021-08-16
-slug: "/effective-java-11"
 tags: ["Study", "Java"]
 ---
 

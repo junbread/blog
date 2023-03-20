@@ -1,7 +1,6 @@
 ---
 title: "Chrome 확장기능 추천목록"
 date: 2021-01-09
-slug: "/chrome-extension-recommendation"
 tags: ["Tips"]
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Bash"
 date: 2021-01-09
-slug: "/bash"
 tags: ["Tips", "Linux"]
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "이펙티브 자바 5장 정리"
 date: 2021-04-12
-slug: "/effective-java-05"
 tags: ["Study", "Java"]
 ---
 

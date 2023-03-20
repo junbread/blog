@@ -1,7 +1,6 @@
 ---
 title: "VS Code"
 date: 2021-01-09
-slug: "/vs-code"
 tags: ["Tips", "Editor"]
 ---
 

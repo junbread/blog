@@ -1,7 +1,6 @@
 ---
 title: "WSL"
 date: 2021-01-09
-slug: "/wsl"
 tags: ["Tips", "Windows", "Linux"]
 ---
 

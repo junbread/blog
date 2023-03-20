@@ -1,0 +1,61 @@
+baseURL: 'https://junbread.win'
+languageCode: 'ko-kr'
+title: 'Junbread🥐'
+theme: 'PaperMod'
+params:
+  env: production
+  disableThemeToggle: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  comments:
+    provider: "giscus"
+    commentable:
+      - post: true
+
+  homeInfoParams:
+    title: "Junbread Dev Blog"
+    content: "개발&새발💻"
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/junbread"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/junhyun-kim-967068182/"
+    - name: "rss"
+      url: "/index.xml"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 10
+    - identifier: categories
+      name: 카테고리
+      url: /categories/
+      weight: 20
+    - identifier: archives
+      name: 아카이브
+      url: /archives/
+      weight: 30
+    - identifier: tags
+      name: 태그
+      url: /tags/
+      weight: 40
+    - identifier: search
+      name: 검색
+      url: /search/
+      weight: 50
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

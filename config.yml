@@ -2,6 +2,7 @@ baseURL: 'https://junbread.win'
 languageCode: 'ko-kr'
 title: 'Junbread🥐'
 theme: 'PaperMod'
+enableRobotsTXT: true
 params:
   env: production
   disableThemeToggle: true

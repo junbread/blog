@@ -3,6 +3,7 @@ languageCode: 'ko-kr'
 title: 'Junbread🥐'
 theme: 'PaperMod'
 enableRobotsTXT: true
+googleAnalytics: G-0QLLXH086F
 params:
   env: production
   disableThemeToggle: true
